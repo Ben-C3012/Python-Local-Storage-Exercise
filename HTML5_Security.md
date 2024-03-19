@@ -3,16 +3,14 @@
 
 ## Description
 
-In this HTML5 Exercise, we are doing to exploit a vulnerability in the local storage web API 
+In this HTML5 Exercise, we are going to exploit a vulnerability in the local storage web API 
 
 ## Installation
 
 Follow these steps to get the project up and running on your local machine:
 
 1. Clone the repository:
-    ```
-    git clone https://github.com/yourusername/your-repo-name.git
-    ```
+   
 2. Navigate to the project directory:
     ```
     cd your-repo-name
@@ -43,26 +41,28 @@ The website implements a login function using local storage.
 
 1. Login with an account of your choice. 
 
-    1 { username: 'Michael Scott', password: 'password' },           
-    2 { username: 'Jim Halpert', password: 'dragon' },
-    3 { username: 'Pam Beesly', password: 'superman' },
-    4 { username: 'Dwight Schrute', password: 'zoominfo' },
-    5 { username: 'Kevin Malone', password: 'password5' },
-    6 { username: 'Walter White', password: 'PureMeth' },
-    7 { username: 'Jesse Pinkman', password: '81207cH' },
-    8 { username: 'Hank Schrader', password: 'DEA123' },
-    9 { username: 'Gus Fring', password: 'El Pollero' },
-    10{ username: 'Saul Goodman', password: 'BetterCallSaul' },
-    11{ username: 'Skyler White', password: 'Marie' },
-    12{ username: 'Paul Atreides', password: 'dune' },
-    13{ username: 'John Doe', password: 'john123' },
-    14{ username: 'Harry Potter', password: 'hogwarts' },
-    15{ username: 'Hermione Granger', password: 'leviosa' },
-    16{ username: 'Ron Weasley', password: 'quidditch' },
-    17{ username: 'Jon Snow', password: 'winteriscoming' },
-    18{ username: 'Arya Stark', password: 'valarmorghulis' },
-    19{ username: 'Tony Stark', password: 'ironman' },
-    20{ username: 'Peter Parker', password: 'spiderman' },
+    |   #   |     username     |    password    |
+    |-------|-----------------|----------------|
+    |   1   |  Michael Scott  |    password    |
+    |   2   |   Jim Halpert   |     dragon     |
+    |   3   |    Pam Beesly   |    superman    |
+    |   4   |  Dwight Schrute |    zoominfo    |
+    |   5   |   Kevin Malone  |   password5    |
+    |   6   |  Walter White   |    PureMeth    |
+    |   7   |  Jesse Pinkman  |    81207cH     |
+    |   8   |  Hank Schrader  |     DEA123     |
+    |   9   |    Gus Fring    |   El Pollero   |
+    |   10  |  Saul Goodman   | BetterCallSaul |
+    |   11  |  Skyler White   |     Marie      |
+    |   12  |  Paul Atreides  |      dune      |
+    |   13  |    John Doe     |    john123     |
+    |   14  |  Harry Potter   |    hogwarts    |
+    |   15  | Hermione Granger|    leviosa     |
+    |   16  |   Ron Weasley   |   quidditch    |
+    |   17  |    Jon Snow     | winteriscoming |
+    |   18  |   Arya Stark    | valarmorghulis |
+    |   19  |   Tony Stark    |    ironman     |
+    |   20  |  Peter Parker   |   spiderman    |
 
 2. Split into pairs. 
 Using reflected XSS, Try to steal your partner's token.

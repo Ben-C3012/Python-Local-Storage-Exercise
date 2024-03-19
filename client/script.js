@@ -49,10 +49,6 @@ function login(username, password) {
             }
 
             alert('Login Successful!')
-
-            // insread of refreshing the page, you can call a function to show the logged in view
-            // delay the function call by 1 second to allow the token to be saved to localStorage
-            // setTimeout(() => {}, 1000)
             loggedInView(data.token)
         })
 
