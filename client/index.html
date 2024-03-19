@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./ZI.ico" />
+    <title>HTML5</title>
+
+    <style>
+        body {
+            display: 'none';
+        }
+
+        #search-section {
+            display: none;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .row {
+            margin-top: 20px;
+        }
+
+        input {
+            width: 90%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        #logout-button {
+            display: none;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" >
+
+        <form id="myForm" action="">
+
+            <div class="row">
+                <div class="five columns">
+
+                    <label for="username">Username</label>
+                    <input name="username" value="" id="username" type="text">
+
+                </div>
+
+                <div class="five columns">
+                    <label for="password">Password</label>
+                    <input name="password" value="" id="password" type="text">
+                </div>
+
+
+            </div>
+
+            <button type="submit" class="button-primary">Log in</button>
+
+        </form>
+
+        <div id="loading-spinner" style="display: none;">
+            Loading...
+        </div>
+
+        <h1 id="message"></h1>
+
+        <section id="search-section" class="container">
+
+            <div class="row">
+
+                <div class="twelve columns">
+                    <label for="search">Search</label>
+                    <input name="search" value="" id="search" type="text">
+                </div>
+                <button id="search-button">Search</button>
+
+            </div>
+
+            <h5 id="search-message"></h5>
+
+        </section>
+
+        <a id="logout-button" class="button button-primary" href="#">Log Out</a>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
