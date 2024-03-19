@@ -3,7 +3,7 @@
 
 ## Description
 
-In this HTML5 Exercise, we are going to exploit a vulnerability in the local storage web API 
+In this HTML5 Exercise, we are going to exploit a vulnerability in the local storage web API.
 
 ## Installation
 
