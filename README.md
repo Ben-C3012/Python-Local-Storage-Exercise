@@ -66,15 +66,15 @@ The website implements a login function using local storage.
 
 2. Split into pairs. 
 Using reflected XSS, Try to steal your partner's token.
---> send your partner a link on slack to the website with the injection at first, start with a simple alert of the token. 
+--> Send your partner a link on Slack to the website with the injection at first and start with a simple alert of the token. 
 
-3. Using Codesandbox, Create an Node http server, send the token of the victim to your server. 
---> With the proper payload, after your partner clicked on the link, you should see the payload of the token, 
-and the victim's ip address.
+3. Using Codesandbox, Create a Node http server, and send the token of the victim to your server. 
+--> With the proper payload, after your partner clicks on the link, you should see the payload of the token, 
+and the victim's IP address. Send a shortened URL that will scramble the original URL. 
 
 
 Final Stage Secure the Code
 1. Eliminate the XSS 
-2. Use an http only cookie instead of local storage for storing and accessing the JWT.
+2. Use an http-only cookie instead of local storage for storing and accessing the JWT.
 
 
