@@ -13,7 +13,7 @@ Follow these steps to get the project up and running on your local machine:
    
 2. Navigate to the project directory:
     ```
-    cd your-repo-name
+    cd Python-Local-Storage-Exercise
     ```
 3. Create a virtual environment:
     ```
